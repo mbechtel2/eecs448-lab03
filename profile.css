@@ -1,0 +1,37 @@
+body
+{
+    background-color: red;
+
+    background-image: url(ku3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p.styleOne
+{
+    background-color: red;
+    color: white;
+    font-family: arial;
+    font-size: 22pt;
+}
+
+p.styleTwo
+{
+    background-color: rgb(192,192,192);
+    color: green;
+    font-family: arial;
+    font-size: 22pt;
+}
+
+a
+{
+    background-color: white;
+    color: blue;
+}
+
+a:hover
+{
+    background-color: rgb(192,192,192);
+    color: red;
+}

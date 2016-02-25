@@ -1,0 +1,40 @@
+<html>
+    <head>
+	<script
+            type="text/javascript"
+            src="CSSmanipulator.js">
+        </script>
+
+	<link href="CSSmanipulator.css"
+	      rel="stylesheet"
+	      type="text/css"/> 
+    </head>
+    
+    <body>
+	<div  id="str">
+		<p>"OK, first off: a lion? Swimming in the ocean? Lions don&rsquo;t like water. If you placed it near a river or some sort of fresh water source, that&rsquo;d make sense. 
+		   But you find yourself in the ocean, 20 foot wave, I&rsquo;m assuming off the coast of South Africa, coming up against a full grown 800 pound tuna with his 20
+		   or 30 friends, you lose that battle, you lose that battle 9 times out of 10. And guess what, you&rsquo;ve wandered into our school of tuna and we now have a 
+		   taste of lion. We&rsquo;ve talked to ourselves. We&rsquo;ve communicated and said &rsquo;You know what, lion tastes good, let&rsquo;s go get some more lion&rsquo;. We&rsquo;ve developed a 
+		   system to establish a beach-head and aggressively hunt you and your family and we will corner your pride, your children, your offspring. ...We will construct 
+		   a series of breathing apparatus with kelp. We will be able to trap certain amounts of oxygen. It&rsquo;s not gonna be days at a time. An hour? Hour forty-five? No problem. 
+		   That will give us enough time to figure out where you live, go back to the sea, get more oxygen, and then stalk you. You just lost at your own game. You&rsquo;re outgunned 
+		   and out-manned. ...Did that go the way you thought it was gonna go? Nope."  
+		</p> 
+		<p>-Allen Gamble (Will Ferrell), "The Other Guys" </p>
+	</div>
+	<br>
+        <form>
+            Border Red: <input id="r1" type="number" name="borderred"> 
+	    Border Green: <input id="g1" type="number" name="bordergreen"> 
+            Border Blue: <input id="b1" type="number" name="borderblue"> 
+            Border Width: <input id="width" type="text" name="borderwidth"> <br>
+            Background Red: <input id="r2" type="number" name="backgroundred">
+	    Background Green: <input id="g2" type="number" name="backgroundgreen">
+            Background Blue: <input id="b2" type="number" name="backgroundblue"> <br>
+        </form>
+	<p>All numbers should be decimal values ranging from 0 to 255.</p>
+	<p>The border width input should be either the pixel length (i.e. 5px) or the level of thicknes (thick, medium, etc.).</p>
+	<button onclick="changeColors()">Change Display</button>
+    </body>
+</html>
